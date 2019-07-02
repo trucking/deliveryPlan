@@ -1,0 +1,342 @@
+.naviga
+{
+    display: block;
+}
+.naviga ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+}
+.naviga li
+{
+    float: left;
+}
+.naviga a:link,.naviga a:visited
+{
+    display:block;
+    width:150px;
+    color:#FFFFFF;
+    background-color:#0e3c76;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+.naviga a:hover,.naviga a:active
+{
+    background-color:#179bdd;
+    color: #ffffff;
+}
+.content
+{
+    display: block;
+    border: 1px solid green;
+    height: 2px;
+}
+
+.clear
+{
+    clear: both;
+}
+.title
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.rwtxList
+{
+    font-size: 13px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    width:95%;
+    margin-left: 2%;
+
+}
+.rwtxList th
+{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+}
+.rwtxList td
+{
+    border: 1px solid cornflowerblue;
+}
+.rwtxList tr td a
+{
+    FONT-SIZE: 9pt;
+    height: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid #6E91C7;
+    background: #F4FBE1 url('./temp/button_bg.gif');
+}
+.rwtxList tr td a:hover
+{
+    FONT-SIZE: 9pt;
+    color: #395500;
+    background: #F4FADF url('./temp/bg_input_btn_hover.png');
+    border: 1px solid #80AA00;
+}
+.trGreen
+{
+    background-color:mediumseagreen;
+    border: 1px solid white;
+}
+.trYellow
+{
+    background-color:darkkhaki;
+    border: 1px solid white;
+}
+.trRed
+{
+    background-color: darksalmon;
+    border: 1px solid white;
+}
+.trGreen td
+{
+    border: 1px solid white;
+}
+.trYellow td
+{
+    border: 1px solid white;
+}
+.trRed td
+{
+    border: 1px solid white;
+}
+.tanchu
+{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    width: 40%;
+    height: 85%;
+    background-color: cornflowerblue;
+    filter:alpha(opacity=80);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tanchu .supName
+{
+    position: relative;
+    left: 20%;
+    top: 10%;
+    color: white;
+}
+
+.tanchu .cerName
+{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    color: white;
+}
+
+.tanchu .dueTime
+{
+    position: relative;
+    left: 20%;
+    top: 30%;
+    color: white;
+}
+
+.tanchu .newTime
+{
+    position: relative;
+    left: 20%;
+    top: 40%;
+    color: white;
+}
+
+.tanchu .close
+{
+    position: absolute;
+    top: 40%;
+}
+
+.tanchu .msg
+{
+    position: relative;
+    left: 20%;
+    top: 50%;
+    width: 50%;
+    color: white;
+}
+.user
+{
+    display: none;
+}
+
+.titlebar
+{
+    background-color: #179bdd;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    height: 5px;
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 2%;
+}
+
+.titlebar .title
+{
+    margin: 10px;
+    top: 1px;
+    height: 5px;
+    width: 85%;
+}
+#exitSup
+{
+    background-color: coral;
+}
+#freezeSup
+{
+    background-color: lightcyan;
+    color: #179bdd;
+}
+.titlebar .shouqi
+{
+    width: 5%;
+    position: absolute;
+    top :120px;
+    left: 90%;
+}
+.info
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    width:60%;
+    display: inline;
+
+}
+
+.infoTitle
+{
+    display: inline;
+    width:12%;
+
+}
+.infoContent
+{
+    display: inline;
+
+}
+.state
+{
+    width:10%;
+    display: inline;
+    margin-left: 40%;
+}
+
+button
+{
+
+    height: 30px;
+    font-size:12px;
+}
+
+.hide
+{
+    display: none;
+}
+.dateTitle
+{
+    display: inline;
+}
+#search
+{
+    width:25px;
+}
+#export
+{
+    width: 25px;
+}
+table
+{
+    width :100%;
+    border: 1px solid;
+}
+table th
+{
+    background: #179bdd;
+    color: #ffffff;
+    height: 30px;
+    border: 1px #dff0d8;
+}
+table td
+{
+    text-align: center;
+    border: 1px solid;
+}
+.page
+{
+    margin: 10px;
+}
+.page ul
+{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.page ul li
+{
+    display: inline-block;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.head
+{
+
+}
+.head h1 img
+{
+    width: 50px;
+    height: 50px;
+    margin-bottom: -10px;
+}
+.buttonLink
+{
+    display: inline-block;
+    margin-left: 20px;
+    background: #4cae4c;
+    ;
+    width:40px;
+    height:20px;
+    border: 1px solid;
+}
+.buttonLink:hover
+{
+    color:white;
+}
+.prcs1
+{
+    background: #fff0f5;
+}
+.prcs2
+{
+    background: #79cdcd;
+}
+.prcs3
+{
+    background: #87ceff;
+}
+.prcs4
+{
+    background: #7a67ee;
+}
+.prcs5
+{
+    background: #43cd80;
+}
+
+
